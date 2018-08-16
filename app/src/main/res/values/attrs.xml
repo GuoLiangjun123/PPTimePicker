@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeCircleView">
+
+        <attr name="circleColor" format="color"/>
+        <attr name="arcColor" format="color"/>
+        <attr name="arcWidth" format="integer"/>
+        <attr name="textColor" format="color"/>
+
+    </declare-styleable>
+    <declare-styleable name="ExpandTextView">
+        <attr name="titleText" format="reference|string"/>
+        <attr name="contentText" format="reference|string"/>
+        <attr name="foldHint" format="reference|string"/>
+        <attr name="expandHint" format="reference|string"/>
+        <attr name="textTitleColor" format="reference|color"/>
+        <attr name="textContentColor" format="reference|color"/>
+        <attr name="textHintColor" format="reference|color"/>
+        <attr name="indicateImage" format="reference"/>
+        <attr name="minVisibleLines" format="integer"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="contentTextSize" format="dimension"/>
+        <attr name="hintTextSize" format="dimension"/>
+        <attr name="animationDuration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="WheelRecyclerView">
+        <attr name="itemHeight" format="dimension"/>
+        <attr name="selectTextSize" format="dimension"/>
+        <attr name="unselectTextSize" format="dimension"/>
+        <attr name="unselectTextColor" format="color"/>
+        <attr name="selectTextColor" format="color"/>
+        <attr name="wheelOffset" format="integer"/>
+        <attr name="dividerWidth" format="dimension"/>
+        <attr name="dividerHeight" format="dimension"/>
+        <attr name="dividerColor" format="color"/>
+    </declare-styleable>
+
+    <!--reference是图片资源的意思-->
+    <declare-styleable name="MarqueeViewStyle">
+        <attr name="mvInterval" format="integer|reference"/>
+        <attr name="mvAnimDuration" format="integer|reference"/>
+        <attr name="mvTextSize" format="dimension|reference"/>
+        <attr name="mvTextColor" format="color|reference"/>
+        <attr name="mvSingleLine" format="boolean"/>
+        <attr name="mvGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="mvDirection">
+            <enum name="bottom_to_top" value="0"/>
+            <enum name="top_to_bottom" value="1"/>
+            <enum name="right_to_left" value="2"/>
+            <enum name="left_to_right" value="3"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="PPTimePicker">
+        <attr name="scaleColor" format="color"/>
+        <attr name="selectColor" format="color"/>
+        <attr name="unSelectColor" format="color"/>
+        <attr name="SelectErrorColor" format="color"/>
+        <attr name="wordColor" format="color"/>
+        <attr name="handleRadius" format="integer"/>
+    </declare-styleable>
+</resources>
